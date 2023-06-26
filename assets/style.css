@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    font-family: Inter, sans-serif;
+    transition: background-color 0.3s ease;
+    color: #333;
+    background-color: #f2f2f2;
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+header {
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+    color: aliceblue;
+    background-color: #333;
+}
+
+main {
+    max-width: 1200px;
+}
+
+header img {
+    width: 40px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+header li {
+    width: 60px;
+    height: 60px;
+    background: aliceblue !important;
+    border-radius: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#resolution-list {
+    background-color: #f2f2f2;
+    padding: 20px;
+    max-height: 100vh;
+}
+
+#resolution-list li {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    background-color: #afafaf;
+    border-radius: 6px;
+}
+
+#resolution-list li h3 {
+    margin: 0 10px 0 0;
+}
+
+#spotfy iframe {
+    height: 160px !important;
+}
+
+
+#spotify-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    color: #1DB954;
+    cursor: pointer;
+}
+
+#spotify-icon:hover {
+    color: #0f8138;
+}
+
+#spotify-player {
+    display: none;
+}
+
+#spotify-player.active {
+    display: block;
+}
