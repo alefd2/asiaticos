@@ -13,10 +13,8 @@ body {
     transition: background-color 0.3s ease;
     color: #333;
     background-color: #f2f2f2;
-
     display: flex;
     align-items: center;
-    text-align: center;
     flex-direction: column;
 
 }
@@ -28,7 +26,6 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: row;
-
     color: aliceblue;
     background-color: #333;
 }
@@ -67,7 +64,6 @@ header li {
 #resolution-list li {
     display: flex;
     flex-direction: row;
-    align-items: center;
     margin: 10px;
     padding: 10px;
     background-color: #afafaf;
